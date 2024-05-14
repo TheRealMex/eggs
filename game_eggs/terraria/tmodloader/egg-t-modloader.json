@@ -11,6 +11,7 @@
     "features": null,
     "docker_images": {
         "Dotnet 6": "ghcr.io\/parkervcp\/yolks:dotnet_6"
+        "Dotnet 8": "ghcr.io\/parkervcp\/yolks:dotnet_8"
     },
     "file_denylist": [],
     "startup": ".\/tModLoaderServer -ip 0.0.0.0 -port {{SERVER_PORT}} -maxplayers {{MAX_PLAYERS}} -password \"{{SERVER_PASSWORD}}\" -motd \"{{MOTD}}\" -lang {{LANGUAGE}} -world ~\/saves\/Worlds\/{{WORLD_NAME}}.wld -worldname {{WORLD_NAME}} -autocreate {{WORLD_SIZE}} -config serverconfig.txt -savedirectory ~\/ -tmlsavedirectory ~\/saves -modpath ~\/mods",
